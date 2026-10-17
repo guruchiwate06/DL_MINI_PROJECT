@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python Virtual Environment
+.venv/
+venv/
+env/
+
+# Datasets and compressed archives (exceeds GitHub file limits)
+data/
+*.zip
+*.tar
+*.tar.gz
+
+# Ignore large U-Net checkpoint files (>50MB)
+outputs/checkpoints/unet/
+outputs/checkpoints/unet_bce_dice/
+
+# Temporary smoke test checkpoints
+*smoke_test*
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
